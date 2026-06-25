@@ -1,0 +1,239 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeHouse</title>
+    <link rel="icon" href="./photo/abstract-love-coffee-logo-icon-260nw-2437956947.webp">
+    <link rel="stylesheet" href="./dk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script>
+    // Access control: Redirect to login if session doesn't exist
+    if (!localStorage.getItem('coffee_house_session')) {
+        window.location.href = 'login.html';
+    }
+</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <a href="./index.html">
+            <img width="100" height="100" src="./photo/logo.jpg"/>
+
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./Product.html">Products</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                    <li><a href="./privacy.html">Privacy</a></li>
+                    <li><a href="./term.html">Terms & Conditions</a></li>
+                    <span class="user-greeting" id="userGreeting"></span>
+                    <button class="logout-btn" id="logoutBtn">Logout</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to CoffeeHouse</h2>
+            <p>Experience the rich aroma and flavors of our carefully selected beans.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Section 1: Featured Coffees -->
+    <section id="products" class="featured-coffee">
+        <div class="container">
+            <h2>Our Featured Coffees</h2>
+            <p>Discover our most loved coffee blends crafted for every coffee enthusiast.</p>
+
+            <div class="coffee-items">
+                <div class="coffee-card">
+                    <h3>Espresso</h3>
+                    <p>Strong, rich, and full-bodied flavor.</p>
+                </div>
+
+                <div class="coffee-card">
+                    <h3>Cappuccino</h3>
+                    <p>A perfect balance of espresso, milk, and foam.</p>
+                </div>
+
+                <div class="coffee-card">
+                    <h3>Latte</h3>
+                    <p>Smooth and creamy coffee experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <h2>Why Choose CoffeeHouse?</h2>
+            <ul>
+                <li>Premium quality coffee beans</li>
+                <li> Ethically sourced ingredients</li>
+                <li> Freshly roasted every week</li>
+                <li> Friendly and cozy atmosphere</li>
+                <li> Fast delivery service</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section 3: Coffee Journey -->
+    <section class="coffee-journey">
+        <div class="container">
+            <h2>From Farm to Cup</h2>
+            <p>
+                Our coffee beans are sourced from the finest farms around the world.
+                Each bean is carefully selected, roasted to perfection, and brewed
+                with passion to bring you an unforgettable coffee experience.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 4: Customer Reviews -->
+    <section class="reviews">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+
+            <div class="review-card">
+                <p>"The best coffee I've ever tasted. Rich flavor and amazing aroma!"</p>
+                <h4>- Sarah M.</h4>
+            </div>
+
+            <div class="review-card">
+                <p>"CoffeeHouse has become my daily stop. Highly recommended!"</p>
+                <h4>- David R.</h4>
+            </div>
+
+            <div class="review-card">
+                <p>"Excellent service and delicious coffee varieties."</p>
+                <h4>- Priya K.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Special Offer -->
+    <section class="special-offer">
+        <div class="container">
+            <h2>Special Offer</h2>
+            <p>
+                Get <strong>20% OFF</strong> on your first order and enjoy a complimentary
+                cookie with every large coffee purchase.
+            </p>
+            <a href="./offer.html" class="btn">Explore Offers</a>
+        </div>
+    </section>
+<!-- Coffee Gallery Section -->
+
+<section class="coffee-gallery">
+    <div class="container">
+
+        <h2>Our Coffee Moments</h2>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="./photo/Espresso.png" alt="Coffee Image 1">
+                <div class="overlay">
+                    <h3>Espresso</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./photo/Cappucino.png" alt="Coffee Image 2">
+                <div class="overlay">
+                    <h3>Cappuccino</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./photo/Latte.png" alt="Coffee Image 3">
+                <div class="overlay">
+                    <h3>Latte</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./photo/Macho.png" alt="Coffee Image 4">
+                <div class="overlay">
+                    <h3>Mocha</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+
+            <div class="footer-about">
+                <h3>CoffeeHouse</h3>
+                <p>
+                    CoffeeHouse brings you rich, aromatic coffees crafted from the finest beans
+                    sourced from premium coffee-growing regions around the world. From classic
+                    brews to signature blends, we're passionate about delivering the perfect
+                    cup every time. Whether you need a morning boost or a cozy break, our
+                    coffee is made to elevate your moments and warm your soul.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./About.html">About Us</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./Contact.html">Contact Us</a></li>
+                    <li><a href="./privacy.html">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+        </div>
+<div class="social-icons">
+
+    <a href="https://www.instagram.com" target="_blank" class="social-circle instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://wa.me/919999999999" target="_blank" class="social-circle whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://www.facebook.com" target="_blank" class="social-circle facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+</div>
+        <p>© 2025 CoffeeHouse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const sessionData = JSON.parse(localStorage.getItem('coffee_house_session'));
+        
+        if (sessionData && sessionData.username) {
+            // Personalize interface using stored session details
+            const greetingEl = document.getElementById('userGreeting');
+            if(greetingEl) greetingEl.textContent = `Hello, ${sessionData.username}`;
+        }
+
+        // Logout execution script
+        document.getElementById('logoutBtn').addEventListener('click', function() {
+            localStorage.removeItem('coffee_house_session'); // Clear session
+            window.location.href = './login.html'; // Kick back to login interface
+        });
+    });
+</script>
+</body>
+</html>
