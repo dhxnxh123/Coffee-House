@@ -4214,3 +4214,950 @@ footer .container>p{
 }
 
 
+/* ===================================================
+        MENU PAGE - TABLET
+===================================================*/
+
+@media (max-width:991px){
+
+.menu-container{
+    width:94%;
+}
+
+.menu-title{
+    font-size:42px;
+}
+
+.tagline{
+    font-size:17px;
+}
+
+.menu-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.menu-card{
+    padding:25px;
+}
+
+.menu-card h2{
+    font-size:26px;
+}
+
+.menu-item{
+    font-size:17px;
+}
+
+.price{
+    font-size:17px;
+}
+
+/* Coffee Beans */
+
+.beans-container{
+    gap:20px;
+}
+
+.bean-card{
+    padding:25px;
+}
+
+.bean-card h3{
+    font-size:22px;
+}
+
+.bean-card p{
+    font-size:15px;
+}
+
+/* Daily Offer */
+
+.daily-content h2{
+    font-size:36px;
+}
+
+.daily-content h3{
+    font-size:26px;
+}
+
+.daily-content p{
+    font-size:17px;
+}
+
+.offer-image img{
+    width:100%;
+    max-width:450px;
+}
+
+/* Facts */
+
+.facts-container{
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.fact-box h3{
+    font-size:32px;
+}
+
+.fact-box p{
+    font-size:16px;
+}
+
+/* Benefits */
+
+.benefits-container{
+    gap:20px;
+}
+
+.benefit-card{
+    padding:25px;
+}
+
+.benefit-card i{
+    font-size:38px;
+}
+
+.benefit-card h3{
+    font-size:22px;
+}
+
+.benefit-card p{
+    font-size:15px;
+}
+
+}
+
+
+
+/* ===================================================
+        MENU PAGE - MOBILE
+===================================================*/
+
+@media (max-width:768px){
+
+.menu-container{
+    width:92%;
+}
+
+.menu-title{
+    font-size:32px;
+    text-align:center;
+}
+
+.tagline{
+    font-size:15px;
+    text-align:center;
+    margin-bottom:35px;
+}
+
+/* Menu */
+
+.menu-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.menu-card{
+    padding:20px;
+}
+
+.menu-card h2{
+    font-size:22px;
+    margin-bottom:18px;
+}
+
+.menu-item{
+    font-size:15px;
+    padding:10px 0;
+}
+
+.price{
+    font-size:15px;
+}
+
+/* Beans */
+
+.coffee-beans h2{
+    font-size:28px;
+}
+
+.beans-container{
+    flex-direction:column;
+    gap:20px;
+}
+
+.bean-card{
+    width:100%;
+}
+
+.bean-card h3{
+    font-size:20px;
+}
+
+.bean-card p{
+    font-size:14px;
+}
+
+/* Offer */
+
+.daily-content{
+    padding:30px 20px;
+    text-align:center;
+}
+
+.daily-content h2{
+    font-size:28px;
+}
+
+.daily-content h3{
+    font-size:22px;
+}
+
+.daily-content p{
+    font-size:14px;
+    line-height:1.8;
+}
+
+.special-btn{
+    padding:12px 24px;
+    font-size:14px;
+}
+
+.offer-image img{
+    width:100%;
+    margin-top:25px;
+    border-radius:15px;
+}
+
+/* Facts */
+
+.coffee-facts h2{
+    font-size:28px;
+}
+
+.facts-container{
+    grid-template-columns:1fr;
+    gap:18px;
+}
+
+.fact-box{
+    padding:22px;
+}
+
+.fact-box h3{
+    font-size:28px;
+}
+
+.fact-box p{
+    font-size:14px;
+}
+
+/* Benefits */
+
+.coffee-benefits h2{
+    font-size:28px;
+}
+
+.benefits-container{
+    flex-direction:column;
+    gap:20px;
+}
+
+.benefit-card{
+    width:100%;
+    padding:22px;
+}
+
+.benefit-card i{
+    font-size:34px;
+}
+
+.benefit-card h3{
+    font-size:20px;
+}
+
+.benefit-card p{
+    font-size:14px;
+}
+
+.footer-note{
+    font-size:18px;
+    text-align:center;
+}
+
+}   
+
+
+/* =========================================
+        OFFER PAGE - TABLET
+========================================= */
+
+@media (max-width:991px){
+
+.coffee-offers{
+    padding:140px 20px 70px;
+}
+
+.coffee-offers h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.offer-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.offer-card{
+    padding:20px;
+}
+
+.offer-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.offer-card h3{
+    font-size:24px;
+}
+
+.offer-card p{
+    font-size:16px;
+}
+
+.offer-price{
+    font-size:22px;
+}
+
+.offer-card button{
+    padding:12px 28px;
+    font-size:15px;
+}
+
+}
+
+
+
+/* =========================================
+        OFFER PAGE - MOBILE
+========================================= */
+
+@media (max-width:768px){
+
+.coffee-offers{
+    padding:180px 15px 60px;
+}
+
+.coffee-offers h2{
+    font-size:30px;
+    text-align:center;
+    margin-bottom:30px;
+    line-height:1.3;
+}
+
+.offer-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:22px;
+}
+
+.offer-card{
+    padding:18px;
+    border-radius:18px;
+}
+
+.offer-card img{
+    width:100%;
+    height:210px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.offer-card h3{
+    font-size:22px;
+    margin-top:15px;
+}
+
+.offer-card p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+.offer-price{
+    font-size:20px;
+}
+
+.offer-card button{
+    width:100%;
+    padding:12px;
+    font-size:15px;
+    border-radius:30px;
+}
+
+}
+
+
+/* =====================================
+      PRIVACY PAGE - TABLET
+===================================== */
+
+@media (max-width:991px){
+
+.privacy-policy{
+    padding:140px 20px 70px;
+}
+
+.privacy-policy .container{
+    width:94%;
+}
+
+.privacy-policy h1{
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.privacy-section{
+    padding:30px;
+    margin-bottom:25px;
+}
+
+.privacy-section h2{
+    font-size:28px;
+}
+
+.privacy-section p,
+.privacy-section li{
+    font-size:17px;
+    line-height:1.9;
+}
+
+}
+
+
+
+/* =====================================
+      PRIVACY PAGE - MOBILE
+===================================== */
+
+@media (max-width:768px){
+
+.privacy-policy{
+    padding:180px 15px 60px;
+}
+
+.privacy-policy .container{
+    width:92%;
+}
+
+.privacy-policy h1{
+    font-size:30px;
+    text-align:center;
+    line-height:1.3;
+    margin-bottom:30px;
+}
+
+.privacy-section{
+    padding:22px;
+    margin-bottom:20px;
+    border-radius:15px;
+}
+
+.privacy-section h2{
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.privacy-section p{
+    font-size:15px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+.privacy-section ul,
+.privacy-section ol{
+    padding-left:20px;
+}
+
+.privacy-section li{
+    font-size:15px;
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+}
+
+
+.order-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 30px;
+    background:#8B4513;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.order-btn:hover{
+    background:#6f3510;
+    transform:translateY(-3px);
+}
+
+
+
+/* =====================================
+      TERMS PAGE - TABLET
+===================================== */
+
+@media (max-width:991px){
+
+.terms-page{
+    padding:140px 20px 70px;
+}
+
+.terms-container{
+    width:94%;
+    padding:35px;
+}
+
+.terms-container h1{
+    font-size:42px;
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.terms-container h2{
+    font-size:28px;
+    margin-top:35px;
+}
+
+.terms-container p,
+.terms-container li{
+    font-size:17px;
+    line-height:1.9;
+}
+
+.terms-menu{
+    padding-left:20px;
+}
+
+}
+
+
+
+/* =====================================
+      TERMS PAGE - MOBILE
+===================================== */
+
+@media (max-width:768px){
+
+.terms-page{
+    padding:180px 15px 60px;
+}
+
+.terms-container{
+    width:95%;
+    padding:22px;
+    border-radius:18px;
+}
+
+.terms-container h1{
+    font-size:30px;
+    line-height:1.3;
+    margin-bottom:30px;
+}
+
+.terms-container h2{
+    font-size:22px;
+    margin-top:28px;
+    margin-bottom:12px;
+}
+
+.terms-container p{
+    font-size:15px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+.terms-container ul,
+.terms-container ol{
+    padding-left:20px;
+}
+
+.terms-container li{
+    font-size:15px;
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.terms-menu li{
+    padding:8px 0;
+}
+
+}
+
+/* =====================================
+      CONTACT PAGE - TABLET
+===================================== */
+
+@media (max-width:991px){
+
+.contact-section{
+    padding:140px 20px 70px;
+}
+
+.contact-container{
+    gap:35px;
+    align-items:flex-start;
+}
+
+.contact-info h1{
+    font-size:42px;
+}
+
+.contact-info p{
+    font-size:17px;
+}
+
+.info-box{
+    padding:18px;
+}
+
+.info-box h3{
+    font-size:20px;
+}
+
+.contact-form{
+    padding:30px;
+}
+
+.contact-form h2{
+    font-size:30px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    font-size:16px;
+    padding:14px;
+}
+
+.contact-form button{
+    font-size:16px;
+    padding:14px;
+}
+
+.map-container iframe{
+    height:350px;
+}
+
+}
+
+
+
+
+/* =====================================
+      CONTACT PAGE - MOBILE
+===================================== */
+
+@media (max-width:768px){
+
+.contact-section{
+    padding:180px 15px 60px;
+}
+
+.contact-container{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.contact-info,
+.contact-form{
+    width:100%;
+}
+
+.contact-info h1{
+    font-size:30px;
+    text-align:center;
+}
+
+.contact-info p{
+    font-size:15px;
+    text-align:center;
+    line-height:1.7;
+}
+
+.info-box{
+    padding:16px;
+    margin-bottom:15px;
+}
+
+.info-box h3{
+    font-size:18px;
+}
+
+.info-box p{
+    font-size:15px;
+    text-align:left;
+}
+
+.contact-form{
+    padding:22px;
+    border-radius:18px;
+}
+
+.contact-form h2{
+    font-size:24px;
+    text-align:center;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    font-size:15px;
+    padding:12px;
+}
+
+.contact-form button{
+    width:100%;
+    padding:12px;
+    font-size:15px;
+    border-radius:30px;
+}
+
+.map-section{
+    padding:0 15px 50px;
+}
+
+.map-container iframe{
+    width:100%;
+    height:300px;
+    border-radius:15px;
+}
+
+}
+
+
+/* =====================================
+        ABOUT PAGE - TABLET
+===================================== */
+
+@media (max-width:991px){
+
+.about-section{
+    padding:140px 20px 70px;
+}
+
+.about-container{
+    gap:40px;
+    align-items:center;
+}
+
+.about-image img{
+    width:100%;
+    max-width:420px;
+}
+
+.about-content h2{
+    font-size:40px;
+}
+
+.about-content p{
+    font-size:17px;
+    line-height:1.9;
+}
+
+.about-btn{
+    font-size:16px;
+    padding:14px 30px;
+}
+
+/* Story */
+
+.our-story{
+    padding:60px 25px;
+}
+
+.story-content h2{
+    font-size:36px;
+}
+
+.story-content p{
+    font-size:17px;
+}
+
+/* Values */
+
+.our-values{
+    padding:60px 20px;
+}
+
+.our-values h2{
+    font-size:38px;
+}
+
+.values-container{
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.value-card{
+    padding:25px;
+}
+
+.value-card i{
+    font-size:42px;
+}
+
+.value-card h3{
+    font-size:24px;
+}
+
+/* Team */
+
+.team-section{
+    padding:60px 20px;
+}
+
+.team-section h2{
+    font-size:38px;
+}
+
+.team-container{
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.team-card img{
+    width:180px;
+    height:180px;
+}
+
+}
+
+
+/* =====================================
+        ABOUT PAGE - MOBILE
+===================================== */
+
+@media (max-width:768px){
+
+.about-section{
+    padding:180px 15px 60px;
+}
+
+.about-container{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    gap:35px;
+}
+
+.about-image img{
+    width:100%;
+    max-width:330px;
+}
+
+.about-content h2{
+    font-size:30px;
+}
+
+.about-content p{
+    font-size:15px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+.about-btn{
+    width:100%;
+    display:block;
+    text-align:center;
+    padding:14px;
+}
+
+/* Story */
+
+.our-story{
+    padding:50px 15px;
+}
+
+.story-content h2{
+    font-size:28px;
+}
+
+.story-content p{
+    font-size:15px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+/* Values */
+
+.our-values{
+    padding:50px 15px;
+}
+
+.our-values h2{
+    font-size:30px;
+}
+
+.values-container{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.value-card{
+    padding:22px;
+}
+
+.value-card i{
+    font-size:38px;
+}
+
+.value-card h3{
+    font-size:22px;
+}
+
+.value-card p{
+    font-size:15px;
+}
+
+/* Team */
+
+.team-section{
+    padding:50px 15px;
+}
+
+.team-section h2{
+    font-size:30px;
+}
+
+.team-container{
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.team-card{
+    padding:20px;
+}
+
+.team-card img{
+    width:170px;
+    height:170px;
+}
+
+.team-card h3{
+    font-size:22px;
+}
+
+.team-card p{
+    font-size:15px;
+}
+
+}
